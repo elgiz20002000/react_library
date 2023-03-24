@@ -30,7 +30,7 @@ const BookInfo = () => {
             <img
               width={250}
               height={350}
-              src={book?.imageLinks.thumbnail}
+              src={book?.imageLinks?.thumbnail}
               alt="book"
             />
           </div>
