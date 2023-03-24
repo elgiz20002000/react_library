@@ -1,0 +1,27 @@
+.search,
+.select,
+select {
+  margin: 10px;
+}
+.search {
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+.select {
+  width: 100%;
+ 
+  select {
+    height: 30px;
+    width: 150px;
+  }
+}
+
+input,
+select,
+textarea {
+  outline: none;
+}

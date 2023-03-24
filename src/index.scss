@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+html {
+  min-height: 100vh;
+}
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+.App {
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .book_parts {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 575px) {
+  form {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 320px) {
+  form {
+    width: 100% !important;
+  }
+}
+
+
